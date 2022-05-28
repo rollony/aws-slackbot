@@ -1,0 +1,19 @@
+{
+  "name": "slackbot-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.0"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1145.0",
+    "axios": "^0.27.2",
+    "uuid": "^8.3.2"
+  }
+}
