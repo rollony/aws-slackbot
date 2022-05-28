@@ -40,7 +40,7 @@ Apply the policy to the role that will serve as the default execution role of th
         {
             "Effect": "Allow",
             "Action": "logs:CreateLogGroup",
-            "Resource": "arn:aws:logs:ap-northeast-2:443388864092:*"
+            "Resource": "arn:aws:logs:ap-northeast-2:<account>:*"
         },
         {
             "Effect": "Allow",
@@ -48,12 +48,12 @@ Apply the policy to the role that will serve as the default execution role of th
                 "logs:CreateLogStream",
                 "logs:PutLogEvents"
             ],
-            "Resource": "arn:aws:logs:ap-northeast-2:443388864092:log-group:/aws/lambda/slackbot-test:*"
+            "Resource": "arn:aws:logs:ap-northeast-2:<account>:log-group:/aws/lambda/slackbot-test:*"
         },
         {
             "Effect": "Allow",
             "Action": "dynamodb:*",
-            "Resource": "arn:aws:dynamodb:ap-northeast-2:443388864092:table/todos"
+            "Resource": "arn:aws:dynamodb:ap-northeast-2:<account>:table/todos"
         }
     ]
 }
