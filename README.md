@@ -79,4 +79,5 @@ It will now be possible to write messages into the DynamoDB table by using the m
 Messages will appear in the DynamoDB table as the below image indicates.
 ![slackbot-jpg2](https://user-images.githubusercontent.com/30142314/170823714-ed4c79e7-7310-464b-8d3b-c645d872e386.JPG)
 
-
+## References
+https://github.com/antonputra/tutorials/tree/main/lessons/076
