@@ -1,5 +1,5 @@
 # aws-slackbot
-Slackbot using AWS Lamdba and DynamoDB
+Slackbot using AWS Lamdba, DynamoDB and ECR
 
 1. Building the Dockerfile
 2. Push to Amazon Elastic Container Registry
